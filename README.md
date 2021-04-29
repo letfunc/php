@@ -25,7 +25,7 @@ create php file: index.php
 #### Class / Async
     $value = $code->each(function ($value) {
         var_dump($value);
-    }));`
+    });
 
 
 ### Function Async
