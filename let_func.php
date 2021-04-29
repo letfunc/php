@@ -1,6 +1,4 @@
 <?php
-use letjson\LetJson;
-use letjson\let_json;
 
 // https://letfunc.github.io/php/
 

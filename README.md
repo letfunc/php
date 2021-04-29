@@ -8,7 +8,7 @@ https://github.com/letfunc/php-example.git
 
 download function by CURL
 
-    curl https://letfunc.github.io/php/let_func.php
+    curl https://letfunc.github.io/php/let_func.php --output let_func.php
 
 create php file: index.php
 
