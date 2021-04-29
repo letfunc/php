@@ -74,7 +74,7 @@ class LetFunc
     public function exec()
     {
         $local_path = '';
-        $newfilename = 'exec.php';
+        $newfilename = $this->func_name . '.php';
         $path = $local_path . $newfilename;
 //    var_dump(!file_exists($path));
 //    die;
