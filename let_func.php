@@ -129,28 +129,3 @@ class LetFunc
         }
     }
 }
-/*
-readfile('footer.html');
-function get_file($file, $local_path, $newfilename)
-{
-    $err_msg = '';
-    echo "<br>Attempting message download for $file<br>";
-    $out = fopen($local_path . $newfilename, "wb");
-    if ($out == FALSE) {
-        print "File not opened<br>";
-        exit;
-    }
-
-    $ch = curl_init();
-
-    curl_setopt($ch, CURLOPT_FILE, $out);
-    curl_setopt($ch, CURLOPT_HEADER, 0);
-    curl_setopt($ch, CURLOPT_URL, $file);
-
-    curl_exec($ch);
-    echo "<br>Error is : " . curl_error($ch);
-
-    curl_close($ch);
-    //fclose($handle);
-
-}//end function
