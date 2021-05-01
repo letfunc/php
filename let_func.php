@@ -2,6 +2,14 @@
 
 // https://letfunc.github.io/php/
 
+/**
+ * @param string $func_url
+ * @param $func_name
+ * @param $func_args
+ * @param $callback
+ *
+ * @return mixed
+ */
 function let_func(string $func_url, $func_name, $func_args, $callback)
 {
     $local_path = '';
